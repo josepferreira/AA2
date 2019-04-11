@@ -15,5 +15,13 @@ https://www.overleaf.com/read/tgmqxwyzrbhd
     - https://www.brodrigues.co/blog/2018-07-01-tidy_ive/
     - https://dev.to/tomoyukiaota/visualizing-the-patterns-of-missing-value-occurrence-with-python-46dj
 
+- feature selection
+    - https://towardsdatascience.com/feature-selection-techniques-in-machine-learning-with-python-f24e7da3f36e
+    - https://en.wikipedia.org/wiki/Feature_selection
+
+- data cleaning
+    - https://towardsdatascience.com/the-ultimate-guide-to-data-cleaning-3969843991d4
+    - https://elitedatascience.com/data-cleaning
+
 ## Dataset
 https://www.kaggle.com/c/microsoft-malware-prediction/overview
