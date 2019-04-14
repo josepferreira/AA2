@@ -9,6 +9,10 @@ https://www.overleaf.com/read/tgmqxwyzrbhd
 
 - otimização hiper-parâmetros
     - https://towardsdatascience.com/understanding-hyperparameters-and-its-optimisation-techniques-f0debba07568
+    - https://towardsdatascience.com/demystifying-hyper-parameter-tuning-acb83af0258f
+    - https://towardsdatascience.com/the-intuitions-behind-bayesian-optimization-with-gaussian-processes-7e00fcc898a0
+    - https://towardsdatascience.com/hyperparameter-tuning-c5619e7e6624
+    - https://mindfoundry.ai/wp-content/uploads/optaas-2-pager.pdf
 
 - exploração de dados
     - http://naniar.njtierney.com/articles/naniar-visualisation.html
