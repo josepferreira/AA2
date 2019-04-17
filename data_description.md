@@ -9,6 +9,7 @@ The sampling methodology used to create this dataset was designed to meet certai
 Unavailable or self-documenting column names are marked with an "NA".
 
 - MachineIdentifier - Individual machine ID
+    - para eliminar
 - ProductName - Defender state information e.g. win8defender
 - EngineVersion - Defender state information e.g. 1.1.12603.0
 - AppVersion - Defender state information e.g. 4.9.10586.0
@@ -17,6 +18,7 @@ Unavailable or self-documenting column names are marked with an "NA".
 - RtpStateBitfield - NA
 - IsSxsPassiveMode - NA
 - DefaultBrowsersIdentifier - ID for the machine's default browser
+    - 95.14% NAs
 - AVProductStatesIdentifier - ID for the specific configuration of a user's antivirus software
 - AVProductsInstalled - NA
 - AVProductsEnabled - NA
@@ -37,6 +39,9 @@ Unavailable or self-documenting column names are marked with an "NA".
 - IsProtected - This is a calculated field derived from the Spynet Report's AV Products field. Returns: a. TRUE if there is at least one active and up-to-date antivirus product running on this machine. b. FALSE if there is no active AV product on this machine, or if the AV is active, but is not receiving the latest updates. c. null if there are no Anti Virus Products in the report. Returns: Whether a machine is protected.
 - AutoSampleOptIn - This is the SubmitSamplesConsent value passed in from the service, available on CAMP 9+
 - PuaMode - Pua Enabled mode from the service
+    - 99.97% NAs
+    - tem 2309 exemplos, com 2 casos possiveis. 1 caso apenas aparece em 2 exemplos.
+    . provavelmente também temos de eliminar
 - SMode - This field is set to true when the device is known to be in 'S Mode', as in, Windows 10 S mode, where only Microsoft Store apps can be installed
 - IeVerIdentifier - NA
 - SmartScreen - This is the SmartScreen enabled string value from registry. This is obtained by checking in order, HKLM\SOFTWARE\Policies\Microsoft\Windows\System\SmartScreenEnabled and HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\SmartScreenEnabled. If the value exists but is blank, the value "ExistsNotSet" is sent in telemetry.
@@ -50,6 +55,8 @@ Unavailable or self-documenting column names are marked with an "NA".
 - Census_ProcessorManufacturerIdentifier - NA
 - Census_ProcessorModelIdentifier - NA
 - Census_ProcessorClass - A classification of processors into high/medium/low. Initially used for Pricing Level SKU. No longer maintained and updated
+    - 99.59% NAs
+    - provavelmente é para eliminar, tem muitos NAs e aqui até diz não é mantida!
 - Census_PrimaryDiskTotalCapacity - Amount of disk space on primary disk of the machine in MB
 - Census_PrimaryDiskTypeName - Friendly name of Primary Disk Type - HDD or SSD
 - Census_SystemVolumeTotalCapacity - The size of the partition that the System volume is installed on in MB
@@ -61,6 +68,7 @@ Unavailable or self-documenting column names are marked with an "NA".
 - Census_InternalPrimaryDisplayResolutionVertical - Retrieves the number of pixels in the vertical direction of the internal display
 - Census_PowerPlatformRoleName - Indicates the OEM preferred power management profile. This value helps identify the basic form factor of the device
 - Census_InternalBatteryType - NA
+    - 71.04% NAs
 - Census_InternalBatteryNumberOfCharges - NA
 - Census_OSVersion - Numeric OS version Example - 10.0.10130.0
 - Census_OSArchitecture - Architecture on which the OS is based. Derived from OSVersionFull. Example - amd64
@@ -77,13 +85,16 @@ Unavailable or self-documenting column names are marked with an "NA".
 - Census_GenuineStateName - Friendly name of OSGenuineStateID. 0 = Genuine
 - Census_ActivationChannel - Retail license key or Volume license key for a machine.
 - Census_IsFlightingInternal - NA
+    - 83.04% NAs
 - Census_IsFlightsDisabled - Indicates if the machine is participating in flighting.
 - Census_FlightRing - The ring that the device user would like to receive flights for. This might be different from the ring of the OS which is currently installed if the user changes the ring after getting a flight from a different ring.
 - Census_ThresholdOptIn - NA
+    - 63.52% NAs
 - Census_FirmwareManufacturerIdentifier - NA
 - Census_FirmwareVersionIdentifier - NA
 - Census_IsSecureBootEnabled - Indicates if Secure Boot mode is enabled.
 - Census_IsWIMBootEnabled - NA
+    - 63.44% NAs
 - Census_IsVirtualDevice - Identifies a Virtual Machine (machine learning model)
 - Census_IsTouchEnabled - Is this a touch device ?
 - Census_IsPenCapable - Is the device capable of pen input ?
