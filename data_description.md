@@ -41,7 +41,7 @@ Unavailable or self-documenting column names are marked with an "NA".
 - PuaMode - Pua Enabled mode from the service
     - 99.97% NAs
     - tem 2309 exemplos, com 2 casos possiveis. 1 caso apenas aparece em 2 exemplos.
-    . provavelmente também temos de eliminar
+    - provavelmente também temos de eliminar
 - SMode - This field is set to true when the device is known to be in 'S Mode', as in, Windows 10 S mode, where only Microsoft Store apps can be installed
 - IeVerIdentifier - NA
 - SmartScreen - This is the SmartScreen enabled string value from registry. This is obtained by checking in order, HKLM\SOFTWARE\Policies\Microsoft\Windows\System\SmartScreenEnabled and HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\SmartScreenEnabled. If the value exists but is blank, the value "ExistsNotSet" is sent in telemetry.
