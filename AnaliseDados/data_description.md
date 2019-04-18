@@ -5,6 +5,9 @@ Each row in this dataset corresponds to a machine, uniquely identified by a Mach
 
 The sampling methodology used to create this dataset was designed to meet certain business constraints, both in regards to user privacy as well as the time period during which the machine was running. Malware detection is inherently a time-series problem, but it is made complicated by the introduction of new machines, machines that come online and offline, machines that receive patches, machines that receive new operating systems, etc. While the dataset provided here has been roughly split by time, the complications and sampling requirements mentioned above may mean you may see imperfect agreement between your cross validation, public, and private scores! Additionally, this dataset is not representative of Microsoft customers’ machines in the wild; it has been sampled to include a much larger proportion of malware machines.
 
+## Se calhar neste site encontramos algo sobre algumas colunas
+#### https://docs.microsoft.com/en-us/windows/privacy/basic-level-windows-diagnostic-events-and-fields-1809
+
 ## Columns
 Unavailable or self-documenting column names are marked with an "NA".
 
@@ -19,6 +22,11 @@ Unavailable or self-documenting column names are marked with an "NA".
 - IsSxsPassiveMode - NA
 - DefaultBrowsersIdentifier - ID for the machine's default browser
     - 95.14% NAs
+    - muitos valores diferentes (2017)
+    - destes, existem 1554 com menos de 10 ocorrências
+    - mas existem 155 com mais de 100
+    - e 47 com mais de 1000
+    - n será muito fácil tratar este, ou colocamos por classes (q n sei muito bem como)(com aquelas das mais usuais???) ou eliminamos
 - AVProductStatesIdentifier - ID for the specific configuration of a user's antivirus software
 - AVProductsInstalled - NA
 - AVProductsEnabled - NA
@@ -69,6 +77,8 @@ Unavailable or self-documenting column names are marked with an "NA".
 - Census_PowerPlatformRoleName - Indicates the OEM preferred power management profile. This value helps identify the basic form factor of the device
 - Census_InternalBatteryType - NA
     - 71.04% NAs
+    - contém bastantes valores diferentes ainda (78) e alguns q apenas têm 1 ocorrência
+    - mas pode ser agrupado, pq em vários casos existem carateres mal reconhecidos ou um carater diferentes que pode significar o mesmo tipo de bateria
 - Census_InternalBatteryNumberOfCharges - NA
 - Census_OSVersion - Numeric OS version Example - 10.0.10130.0
 - Census_OSArchitecture - Architecture on which the OS is based. Derived from OSVersionFull. Example - amd64
@@ -86,6 +96,9 @@ Unavailable or self-documenting column names are marked with an "NA".
 - Census_ActivationChannel - Retail license key or Volume license key for a machine.
 - Census_IsFlightingInternal - NA
     - 83.04% NAs
+    - apenas tem 2 classes 0 e 1.
+    - existem cerca de 0.0013882241572157248% de 1s relativamente aos valores presentes!
+    - logo se calhar podemos assumir que o 0 é o que é mais frequente não? apesar n sabermos o q significa tbm
 - Census_IsFlightsDisabled - Indicates if the machine is participating in flighting.
 - Census_FlightRing - The ring that the device user would like to receive flights for. This might be different from the ring of the OS which is currently installed if the user changes the ring after getting a flight from a different ring.
 - Census_ThresholdOptIn - NA
