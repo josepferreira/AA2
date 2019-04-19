@@ -19,3 +19,19 @@
 - AvSigVersion - Defender state information e.g. 1.217.1014.0
     - 8531 valores distintos
     - valores do tipo X.X.X.X pelo que deve dar para agrupar por classes não?
+
+- Census_OEMNameIdentifier - NA
+    - 3850 valores diferentes
+    - valores inteiros do tipo X.0
+
+- Census_ProcessorModelIdentifier - NA
+    - 3446 valores distintos
+    - valores iguais ao anterior
+
+- DefaultBrowsersIdentifier - ID for the machine's default browser
+    - 95.14% NAs
+    - muitos valores diferentes (2017)
+    - destes, existem 1554 com menos de 10 ocorrências
+    - mas existem 155 com mais de 100
+    - e 47 com mais de 1000
+    - n será muito fácil tratar este, ou colocamos por classes (q n sei muito bem como)(com aquelas das mais usuais???) ou eliminamos
