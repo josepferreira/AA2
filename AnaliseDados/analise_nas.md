@@ -1,6 +1,6 @@
 # Análise aos NAs
 
-- - PuaMode - Pua Enabled mode from the service
+- PuaMode - Pua Enabled mode from the service
     - 99.97% NAs
     - tem 2309 exemplos, com 2 casos possiveis. 1 caso apenas aparece em 2 exemplos.
     - provavelmente também temos de eliminar
