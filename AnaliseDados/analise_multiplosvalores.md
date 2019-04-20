@@ -19,3 +19,5 @@
 - AvSigVersion - Defender state information e.g. 1.217.1014.0
     - 8531 valores distintos
     - valores do tipo X.X.X.X pelo que deve dar para agrupar por classes não?
+    
+    ** Nesses atributos que tem milhares de valores diferentes e são categóricos até que ponto vale a pena mante-los? Que informação relevante poderá ser dada em tantas possibilidades e cada uma com tao pouca expressividade??**
