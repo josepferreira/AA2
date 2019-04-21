@@ -13,3 +13,6 @@
 - Pode-se juntar alguns atributos (mas se calhar é menos usual e fácil)
 - Também se pode depois aplicar um filtro de 'variance treshold' que elimina alguns atributos
 - Ter sempre em atenção que alguns atributos podem só fazer sentido com outros presentes
+
+## Importante
+No livro fala em medidas de similaridade entre atributos categoricos e de tipos mistos.
