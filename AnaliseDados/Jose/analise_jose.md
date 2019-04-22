@@ -13,7 +13,7 @@ No entanto as últimas têm bastantes valores distintos (165 e 285) sendo todos 
 - Census_OSBuildRevision
 
 #### Pequena análise
-Apenas o último tem alguns NAs e sã poucos (0.6734754748734084%).
+Apenas o último tem alguns NAs e são poucos (0.6734754748734084%).
 
 Nenhum tem um número muito elevado de atributos(33,30,9 e 39).
 
@@ -25,3 +25,5 @@ O último são apenas valores numéricos pelo q n é muito simples conseguir alg
 - Census_OSSkuName 
 - Census_OSInstallTypeName 
 - Census_OSInstallLanguageIdentifier
+
+#### Pequena análise
