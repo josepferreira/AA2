@@ -1,18 +1,18 @@
 # Análise às colunas com múltiplos valores
 
-- Census_OEMModelIdentifier - NA
+- [**Eliminar**] Census_OEMModelIdentifier - NA
     - 175365 valores diferentes
     - todos númericos pelo q n sei o q fazer
 
-- CityIdentifier - ID for the city the machine is located in
+- [**Eliminar**] CityIdentifier - ID for the city the machine is located in
     - 107366 valores diferentes
     - grande problema é que n diz qual a cidade, mas aparece um identificador numérico pelo q n podemos usar coordenadas
 
-- Census_FirmwareVersionIdentifier - NA
+- [**Eliminar**] Census_FirmwareVersionIdentifier - NA
     - 50512 valores diferentes
     - todos numéricos pelo q torna-se complicado perceber algo
 
-- AVProductStatesIdentifierAVProductStatesIdentifier - ID for the specific configuration of a user's antivirus software
+- [**Eliminar**] AVProductStatesIdentifierAVProductStatesIdentifier - ID for the specific configuration of a user's antivirus software
     - 28988 valores diferentes
     - valores numéricos pelo q n sei se conseguimos extrair grande informação, nem para agrupar deve dar
 
@@ -20,15 +20,15 @@
     - 8531 valores distintos
     - valores do tipo X.X.X.X pelo que deve dar para agrupar por classes não?
 
-- Census_OEMNameIdentifier - NA
+- [**Eliminar**] Census_OEMNameIdentifier - NA
     - 3850 valores diferentes
     - valores inteiros do tipo X.0
 
-- Census_ProcessorModelIdentifier - NA
+- [**Eliminar**] Census_ProcessorModelIdentifier - NA
     - 3446 valores distintos
     - valores iguais ao anterior
 
-- DefaultBrowsersIdentifier - ID for the machine's default browser
+- [**Eliminar**] DefaultBrowsersIdentifier - ID for the machine's default browser
     - 95.14% NAs
     - muitos valores diferentes (2017)
     - destes, existem 1554 com menos de 10 ocorrências
