@@ -19,6 +19,10 @@
 - AvSigVersion - Defender state information e.g. 1.217.1014.0
     - 8531 valores distintos
     - valores do tipo X.X.X.X pelo que deve dar para agrupar por classes não?
+<<<<<<< HEAD
+    
+    ** Nesses atributos que tem milhares de valores diferentes e são categóricos até que ponto vale a pena mante-los? Que informação relevante poderá ser dada em tantas possibilidades e cada uma com tao pouca expressividade??**
+=======
 
 - [**Eliminar**] Census_OEMNameIdentifier - NA
     - 3850 valores diferentes
@@ -35,3 +39,4 @@
     - mas existem 155 com mais de 100
     - e 47 com mais de 1000
     - n será muito fácil tratar este, ou colocamos por classes (q n sei muito bem como)(com aquelas das mais usuais???) ou eliminamos
+>>>>>>> b1febd04d2fc0b363403b487ac6eb97bd1466e89
