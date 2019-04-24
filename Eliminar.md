@@ -20,6 +20,7 @@
 - Census_ProcessorModelIdentifier
 - Census_FirmwareVersionIdentifier
 - Census_FirmwareManufacturerIdentifier
+- OsBuildLab
 
 **Variaveis em risco de exclusão**
 
