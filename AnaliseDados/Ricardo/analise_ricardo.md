@@ -31,7 +31,7 @@
 
 **[Discreto]** O atributo *Census_PrimaryDiskTotalCapacity* possui muito poucos valores missing (0.62%) e apresenta 1194 valores distintos. Pode-se substituir os valores missing pela média dos restantes valores.
 
-**[Categórico]** O atributo *Census_PrimaryDiskTypeName* possui muito poucos valores missing (0.15%) e apresenta 4 valores distintos. Talvez seja possível juntar os valores "UNKNOWN" e "Unspecified" num só valor - "Unspecified". Pode-se também substituir os vvalores missing pelo valor mais frequente - "HDD".
+**[Categórico]** O atributo *Census_PrimaryDiskTypeName* possui muito poucos valores missing (0.15%) e apresenta 4 valores distintos. Talvez seja possível juntar os valores "UNKNOWN" e "Unspecified" num só valor - "Unspecified". Pode-se também substituir os valores missing pelo valor mais frequente - "HDD".
 
 **[Discreto]** O atributo *Census_SystemVolumeTotalCapacity* possui muito poucos valores missing (0.62%) e apresenta 158820 valores distintos. Pode-se substituir os valores missing pela média dos restantes valores. Parece apresentar algumas semelhanças com o atributo *Census_PrimaryDiskTotalCapacity*.
 
@@ -54,7 +54,7 @@
 
 **[Discreto]** O atributo *Census_InternalBatteryNumberOfCharges* possui poucos valores missing (3.04%) e apresenta 5947 valores distintos. Por ser discreto não é necessário efetuar alterações a este atributo. Pode-se substituir os valores missing pela média dos restantes valores.
 
-**[Categórico]** O atributo *Census_ChassisTypeName* não possui valores missing e apresenta 304 valores distintos. Pode-se agrupar as várias versões reduzindo o número de valores distintos.
+**[Categórico]** O atributo *Census_OSVersion* não possui valores missing e apresenta 304 valores distintos. Pode-se agrupar as várias versões reduzindo o número de valores distintos.
 
 
 
