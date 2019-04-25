@@ -47,7 +47,7 @@
 
 **[Discreto]** O atributo *Census_InternalPrimaryDisplayResolutionVertical* possui muito poucos valores missing (0.54%) e apresenta 569 valores distintos. Por ser discreto não é necessário efetuar alterações a este atributo.Pode-se substituir os valores missing pela média dos restantes valores.
 
-**[Categórico]** O atributo *Census_ChassisTypeName* possui muito poucos valores missing (0.001%) e apresenta 9 valor distintos. Parece ter uma elevada relação com os atributos "Census_MDC2FormFactor" e "Census_ChassisTypeName". É possível substituir os valores missing pelo valor mais frequente - "Mobile".
+**[Categórico]** O atributo *Census_PowerPlatformRoleName* possui muito poucos valores missing (0.001%) e apresenta 9 valor distintos. Parece ter uma elevada relação com os atributos "Census_MDC2FormFactor" e "Census_ChassisTypeName". É possível substituir os valores missing pelo valor mais frequente - "Mobile".
 
 **[Categórico]** O atributo *Census_InternalBatteryType* possui muitos valores missing (71.05%) e apresenta 30 valor distintos. Talvez agrupar todos os valores começados por "li" e assumir que os valores missing podem ser representados por "li"?
 **ACABAR**
